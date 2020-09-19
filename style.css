@@ -1,36 +1,53 @@
 section {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
+
+h2{
+    font-size:22px;
+}
+
 img {
     box-sizing: border-box;
     height: 7%;
     }
 
-input{
+input {
+    background-color:rgb(245, 248, 250);
+    border-bottom-right-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
     width: 540px;
     height: 40px;
-    border-top:solid 0px white;
-    border-left:solid 0px white;
-    border-right:solid 0px white;
-    border-bottom:solid 0.9px grey;
-    padding:0px 0px;
-    margin:5px;
-}    
-input:focus{
-    border-bottom-color:lightblue
+    border-top: solid 0px white;
+    border-left: solid 0px white;
+    border-right: solid 0px white;
+    border-bottom: solid 2.5px rgb(101, 119, 134);
+    padding: 0px 0px;
+    margin: 5px;
+    margin-top: 0;
+    margin-bottom:20px;
+    
+}
+   
+input:focus {
+    
+    box-sizing: border-box;
+    border-bottom:solid 2px rgb(26,145,218);
 
 }
 
 #entrar {
-    display:inline-block;
+    display:block;
+    margin:auto;
     color:white;
-    font-size:18px;
+    font-weight: bold;
+    font-size:15px;
     width:550px;
     height:50px;
     background-color:#1DA1F2;
-    
     border-radius: 9999px;
-    margin-bottom:20px;
+    margin-bottom:30px;
     padding-right:20px;
     padding-left:20px;
     padding-top:12.5px;
@@ -40,11 +57,48 @@ input:focus{
 
 }
 
-#entrar:hover{
+#entrar:hover {
     
-    background-color:#216c9b;
+    background-color:rgb(26,145,218);
 
 }
+
+label {
+    background-color:rgb(245, 248, 250);
+    color:rgb(101, 119, 134);
+    font-size:15px;
+    display: block;
+    border-top-right-radius: 0.25em;
+    border-top-left-radius: 0.25em;
+    margin-bottom: 0;
+    padding: 0 8;
+    padding-top:8;
+    margin: auto;
+    width: 540px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+label:hover{
+    color:rgb(26,145,218);
+}
+
+a {
+    color:#1B95E0;
+    font-size: 15px;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+span {
+    font-size: 15px;
+    color:#1B95E0;
+}
+
+
 
 
 

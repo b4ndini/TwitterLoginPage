@@ -30,13 +30,6 @@ input {
     padding-left: 8px;
     
 }
-   
-/*input:focus {
-    
-    box-sizing: border-box;
-    border-bottom:solid 2px rgb(26,145,218);
-
-}*/
 
 #entrar {
     display:block;
@@ -117,8 +110,3 @@ span {
     font-size: 15px;
     color:#1B95E0;
 }
-
-
-
-
-

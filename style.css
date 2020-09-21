@@ -18,7 +18,7 @@ input {
     border-bottom-right-radius: 0.25em;
     border-bottom-left-radius: 0.25em;
     width: 540px;
-    height: 40px;
+    height: 35px;
     border-top: solid 0px white;
     border-left: solid 0px white;
     border-right: solid 0px white;
@@ -27,14 +27,8 @@ input {
     margin: 5px;
     margin-top: 0;
     margin-bottom:20px;
+    padding-left: 8px;
     
-}
-   
-input:focus {
-    
-    box-sizing: border-box;
-    border-bottom:solid 2px rgb(26,145,218);
-
 }
 
 #entrar {
@@ -79,8 +73,27 @@ label {
     box-sizing: border-box;
 }
 
-label:hover{
+
+.focus-label:focus-within label{
     color:rgb(26,145,218);
+}
+
+.focus-label:focus-within input{
+    padding-left: 8px;
+    box-sizing: border-box;
+    border-bottom:solid 2px rgb(26,145,218);    
+}
+
+.focus-input:focus-within label{
+    color:rgb(26,145,218);
+
+
+}
+
+.focus-input:focus-within input{
+    padding-left: 8px;
+    box-sizing: border-box;
+    border-bottom:solid 2px rgb(26,145,218);
 }
 
 a {
@@ -97,8 +110,3 @@ span {
     font-size: 15px;
     color:#1B95E0;
 }
-
-
-
-
-
